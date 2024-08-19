@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain of Miracle Church</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://path-to-your-worship-scene-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            animation: bgZoom 20s infinite alternate ease-in-out;
+        }
+
+        @keyframes bgZoom {
+            0% { background-size: 100%; }
+            100% { background-size: 110%; }
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .header-content p {
+            margin: 10px 0;
+            color: #ffcc00;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        .section {
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1.5s forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .about {
+            animation-delay: 0.5s;
+        }
+
+        .live-programs {
+            animation-delay: 1s;
+        }
+
+        .parishes {
+            animation-delay: 1.5s;
+        }
+
+        .programs {
+            animation-delay: 2s;
+        }
+
+        .daily-verse {
+            animation-delay: 2.5s;
+        }
+
+        .contact {
+            animation-delay: 3s;
+        }
+
+        .follow-us {
+            animation-delay: 3.5s;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            color: #ffcc00;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px;
+            color: #fff;
+            background-color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background-color: #333;
+        }
+
+        .btn.facebook {
+            background-color: #3b5998;
+        }
+
+        .btn.youtube {
+            background-color: #ff0000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 2px solid #ffcc00;
+        }
+        
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .logo img {
+            max-width: 120px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://web.facebook.com/profile.php?id=61564098616457&__tn__=%3C" alt="Mountain of Miracle Church Logo">
+        </div>
+        <div class="header-content">
+            <h1>Mountain of Miracle Church</h1>
+            <p>Beside Wale Omo-Gafo House Off Ganiyu Bello Street Felele Ibadan, Ibadan, Nigeria</p>
+            <p>Pastor in Charge: Oladapo Oladipo - 08032268852</p>
+        </div>
+    </header>
+
+    <section class="section about">
+        <h2>About Us</h2>
+        <p>Welcome to Mountain of Miracle Church. Join us for powerful worship and teachings.</p>
+    </section>
+
+    <section class="section live-programs">
+        <h2>Watch Us Live</h2>
+        <div class="links">
+            <a href="https://www.facebook.com/profile.php?id=61564098616457&mibextid=ZbWKwL" target="_blank" class="btn facebook">Facebook Live</a>
+            <a href="https://www.youtube.com/@MMIC_ibadan" target="_blank" class="btn youtube">YouTube Live</a>
+        </div>
+    </section>
+
+    <section class="section parishes">
+        <h2>Our Parishes</h2>
+        <ul>
+            <li>Felele - Beside Wale Omo-Gafo House Off Ganiyu Bello Street Felele Ibadan, Ibadan, Nigeria.</li>
+            <li>Olunde</li>
+            <li>Molete</li>
+        </ul>
+        <p>For more inquiries, call Assistant Pastor at 08144715432.</p>
+    </section>
+
+    <section class="section programs">
+        <h2>Programs</h2>
+        <p>Join us for live programs on Tuesdays and Sundays. Attend physically or online.</p>
+    </section>
+
+    <section class="section daily-verse">
+        <h2>Daily Bible Verses</h2>
+        <div id="bible-verses">
+            <p class="verse"></p>
+            <p class="verse"></p>
+            <p class="verse"></p>
+            <p class="verse"></p>
+        </div>
+    </section>
+
+    <section class="section contact">
+        <h2>Contact Us</h2>
+        <p>For more inquiries, contact:</p>
+        <ul>
+            <li>Pastor Oladapo Oladipo: 08032268852</li>
+            <li>Assistant Pastor: 08144715432</li>
+            <li>Another Contact: 08023158271</li>
+            <li>Accountant: 09021846773</li>
+        </ul>
+    </section>
+
+    <section class="section follow-us">
+        <h2>Follow Us</h2>
+        <p>Follow us for more Bible and spiritual impartations on our <a href="https://www.facebook.com/profile.php?id=61564098616457&mibextid=ZbWKwL" target="_blank" style="color: #ffcc00; text-shadow: 1px 1px 2px #000;">Facebook Page</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mountain of Miracle Church. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const verses = [
+                "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope. - Jeremiah 29:11",
+                "The LORD is my shepherd; I shall not want. - Psalm 23:1",
+                "I can do all things through Christ who strengthens me. - Philippians 4:13",
+                "But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint. - Isaiah 40:31"
+            ];
+
+            const verseElements = document.querySelectorAll('.verse');
+            verseElements.forEach((element, index) => {
+                element.textContent = verses[index];
+            });
+        });
+    </script>
+</body>
+</html>
+Changes Made:
